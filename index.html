@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+    <div class="container">
+    <div class="name">
+        <p><span>Age</span> Calculator APP </p>
+    </div>
+    <div class="entries">
+        <p>Input Your  <span>D-O-B </span></p>
+       
+            <form id="form">
+            <input type="number" class="input" id="Day" placeholder="DD" min="1" max="31" size="2">
+            <input type="number" class="input" id="Month" placeholder="MM" min="1" max="12">
+            <input type="number" class="input" id="Year" placeholder="YY" min="1">
+            <button id="button"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+              </svg></button>
+            </form>
+       
+        <div class="results">
+            <p class="result-years">--- Year</p>
+            <p class="result-month">--- Month</p>
+            <p class="result-day">--- Day</p>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+    </div>
+</body>
+</html>
